@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Overpass:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    height: 100%;
+    width: 98%;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+h3 {
+    color: rgb(211, 198, 198);
+}
+
+p#remove {
+    color :hsl(215, 7%, 36%);
+    font-size: smaller;
+}
+
+div#box {
+    background-color: hsl(213, 19%, 18%);
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
+
+div#img {
+    background-color: hsl(218, 14%, 26%);
+    width: 30px;
+    height: 30px;
+    margin: 3%;
+    border-radius: 50%;
+}
+
+div#info {
+    position: absolute;
+    top: 11%;
+    left: 15%;
+    width: 250px;
+}
+
+.button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+button {
+    background-color: hsl(218, 14%, 26%);
+    color: white;
+    border: 0;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+#nivel1:hover,#nivel2:hover, #nivel3:hover, #nivel4:hover, #nivel5:hover {
+    background-color: hsl(217, 12%, 63%);
+}
+
+#nivel1, #nivel2, #nivel3, #nivel4, #nivel5 {
+    margin: 2%;
+}
+
+#imagem1 {
+    position: absolute;
+    top: 5%;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    left: 4.7%;
+    background-color: hsl(218, 14%, 26%);
+}
+
+#img {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+input {
+    position: absolute;
+    bottom: -20%;
+    left: -5%;
+    top: 115%;
+    height: 35px;
+    width: 260px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    color: hsl(217, 10%, 84%);
+}
+
+input:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+#newTitle {
+    height: 19px;
+    width: 150px;
+    border-radius: 5px;
+
+    color: hsl(25, 97%, 53%) ;
+    font-size: 0.75em ;
+    text-align: center;
+
+    position: absolute;
+    top: 120px;
+    left: 45px;
+}
+
+#txt {
+    color :hsl(215, 7%, 36%);
+    font-size: smaller;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 180px;
+    right: 18px;
+}
+
+#newImage{
+    position: absolute;
+    top: 30px;
+    right: 27%;
+}
+
+#txtSub {
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 70px;
+    font-size: larger;
+}
+
+.attribution { font-size: 11px; text-align: center; color: white;}
+.attribution a { color: hsl(228, 45%, 44%); }
