@@ -66,7 +66,7 @@ click4.addEventListener('click', function(){
         //botão ativado
         click4.style.backgroundColor = 'hsl(25, 97%, 53%)'
         cont4++;
-        fav == 4
+        fav = 4
 
     } else {
         //botão desativado
@@ -108,7 +108,7 @@ function enviar(){
     p.remove()
 
     var img = document.querySelector("#newImage")
-    img.setAttribute('src', '/images/illustration-thank-you.svg');
+    img.setAttribute('src', 'images/illustration-thank-you.svg');
 
     var newTitle = document.querySelector('#newTitle');
     var newFive = newTitle.innerHTML
